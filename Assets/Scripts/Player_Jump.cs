@@ -4,7 +4,7 @@ public class Player_Controller : MonoBehaviour
 {
     public Rigidbody rb;
     public bool ifonland = false;
-    public float jumpSp = 7.0f;
+    public float jumpSp = 10.0f;
     void Start()
     {
         
