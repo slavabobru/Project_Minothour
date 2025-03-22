@@ -24,11 +24,11 @@ public class Player_Controls : MonoBehaviour
         
         if (Input.GetKey(KeyCode.A)) // for turning left
         {
-            transform.Rotate(0, -1, 0);
+            transform.Rotate(0, -2, 0);
         }
         if (Input.GetKey(KeyCode.D)) // for turning right
         {
-            transform.Rotate(0, 1, 0);
+            transform.Rotate(0, 2, 0);
         }
         if (Input.GetKey(KeyCode.R)) // for respawn if you are stuck
         {

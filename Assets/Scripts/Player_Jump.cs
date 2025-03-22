@@ -26,5 +26,9 @@ public class Player_Controller : MonoBehaviour
         {
             ifonland = true;
         }
+        if (collision.gameObject.CompareTag("Key1"))
+        {
+            ifonland = true;
+        }
     }
 }
