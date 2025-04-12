@@ -7,6 +7,8 @@ TagManager:
   - Deadly
   - land
   - Key1
+  - ScrKey1
+  - Scr1
   layers:
   - Default
   - TransparentFX
