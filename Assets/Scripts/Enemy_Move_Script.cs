@@ -12,7 +12,7 @@ public class Enemy_Move_Script : MonoBehaviour
 
     void Start()
     {
-        plPos = GameObject.Find("SUS").transform;
+        plPos = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
